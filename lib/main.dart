@@ -32,7 +32,6 @@ class InfiniteFeed extends StatefulWidget {
 class _InfiniteFeedState extends State<InfiniteFeed> {
   final PageController _pageController = PageController(initialPage: 1000);
 
-  // 4 images seulement
   final List<String> _images = const [
     'https://picsum.photos/id/1011/1080/1920',
     'https://picsum.photos/id/1015/1080/1920',
@@ -86,7 +85,7 @@ class _InfiniteFeedState extends State<InfiniteFeed> {
                 left: 20,
                 right: 20,
                 child: Text(
-                  "Votre texte ici — affiché sur chaque écran",
+                  "Exercice Flutter - Défilement Infini",
                   style: const TextStyle(
                     fontSize: 26,
                     fontWeight: FontWeight.bold,
